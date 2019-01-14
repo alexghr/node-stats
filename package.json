@@ -1,4 +1,7 @@
 {
+  "name": "@alexghr/statsd-proxy-client",
+  "private": true,
+  "license": "MIT",
   "dependencies": {
     "benchmark": "^2.1.4",
     "node-statsd": "^0.1.1"
