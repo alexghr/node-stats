@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "node-statsd": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^1.0.31",
+    "@types/node": "^10.12.18",
+    "@types/node-statsd": "^0.1.2",
+    "typescript": "^3.2.2"
+  }
+}
