@@ -7,6 +7,8 @@
  * proxied x 24,415,727 ops/sec ±1.11% (90 runs sampled)
  * Fastest is vanilla
  * ```
+ * 
+ * Also see http://thecodebarbarian.com/thoughts-on-es6-proxies-performance
  */
 
 import { Suite } from 'benchmark';
