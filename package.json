@@ -1,16 +1,18 @@
 {
-  "name": "@alexghr/statsd-proxy-client",
-  "private": true,
+  "name": "@alexghr/stats",
+  "main": "./dist",
   "license": "MIT",
   "dependencies": {
-    "benchmark": "^2.1.4",
-    "node-statsd": "^0.1.1"
+    "tslib": "^1.9.3"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prepublish": "tsc --build",
+    "test": "jest"
   },
   "devDependencies": {
-    "@types/benchmark": "^1.0.31",
     "@types/jest": "^23.3.12",
     "@types/node": "^10.12.18",
-    "@types/node-statsd": "^0.1.2",
     "jest": "^23.6.0",
     "typescript": "^3.2.2",
     "ts-jest": "^23.10.5"
